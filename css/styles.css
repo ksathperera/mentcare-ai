@@ -252,14 +252,14 @@ section:nth-child(even) {
     transition: transform 0.3s ease;
 }
 
-.feature-card:hover::before {
+/* .feature-card:hover::before {
     transform: translateX(0);
-}
+} */
 
-.feature-card:hover {
+/* .feature-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-xl);
-}
+} */
 
 #feature-icon {
     font-size: 3rem;
