@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MentcareAI</title>
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <a class="nav-link-logo active" href="#home">
+        <img class="nav-logo" src="./images/logo.png" alt="" />
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="#domain">Domain</a>
+        <a class="nav-link" href="#milestones">Milestones</a>
+        <a class="nav-link" href="#documents">Documents</a>
+        <a class="nav-link" href="#slides">Slides</a>
+        <a class="nav-link" href="#team">About us</a>
+        <a class="nav-link" href="#contact">Contact us</a>
+      </div>      
+      <i class="fa-solid fa-xmark" id="close-icon"></i>
+    </nav>
+    <div>
+      <i class="fa-solid fa-bars" id="menu-bars"></i>
+    </div>
+
+    <section id="home">
+      <div class="hero-section">
+        <div class="hero-left" data-aos="fade-right">
+          <h1>What is MENTCARE AI</h1>
+          <p>
+            MENTCARE AI is your intelligent mental health and neurology assistant. MENTCARE AI leverages the power of machine learning and multimodal data analysis to detect and assess conditions like Alzheimer’s, Parkinson’s, Autism Spectrum Disorder, and Depression. From analyzing facial cues and speech patterns to interpreting text and clinical data, MENTCARE AI delivers fast, reliable, and explainable insights. Built with specialized AI models for each condition, the system ensures high accuracy and clinical relevance. Whether used by professionals or integrated into patient care workflows, MENTCARE AI supports early intervention and informed decision-making with clarity and confidence.
+          </p>
+        </div>
+        <div class="hero-right" data-aos="fade-left">
+          <img src="./images/home-page.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <h1 data-aos="fade-right">What we are doing ?</h1>
+
+      <div class="feature-cards">
+        <div class="feature-card">
+          <h3>Diagnosing and Analyzing Alzheimer’s</h3>
+          <i id="feature-icon" class="fa-solid fa-user-doctor"></i>
+          <p>Our research focuses on leveraging machine learning techniques to diagnose and analyze the risk of Alzheimer's disease at an early stage. By processing cognitive assessment data and behavioral patterns, our model aims to detect subtle signs of cognitive decline. This data-driven approach enhances the accuracy of early diagnosis, supporting timely intervention and improved patient outcomes..</p>
+        </div>
+        <div class="feature-card">
+          <h3>Early Detection of Parkinson's</h3>
+          <i id="feature-icon" class="fa-solid fa-heart-pulse"></i> 
+          <p>
+            We utilize advanced machine learning algorithms to predict the onset of Parkinson's disease through risk modeling. By analyzing clinical data, motor symptoms, and other relevant indicators, our system offers a proactive approach to early detection. This facilitates quicker diagnosis and empowers healthcare professionals to initiate personalized treatment strategies sooner.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Early Autism Spectrum Disorder Detection</h3>
+          <i id="feature-icon" class="fa-solid fa-dna"></i> 
+          <p>
+            Our research explores the integration of facial image processing and text analysis to detect early signs of Autism Spectrum Disorder (ASD). Using machine learning models, we examine subtle facial expressions and behavioral cues in text to identify developmental irregularities. This multi-modal approach aims to support early diagnosis and enable timely, individualized care for children.
+          </p>
+        </div>        
+
+        <div class="feature-card">
+          <h3>Diagnosing and Analyzing Depression</h3>
+          <i id="feature-icon" class="fa-solid fa-brain"></i> 
+          <p>
+            Combining facial emotion recognition with textual sentiment analysis, our model provides a comprehensive framework for diagnosing and analyzing depression. Machine learning techniques help identify emotional patterns and language cues associated with depressive states. This approach assists medical professionals in making more informed decisions and delivering more effective mental health care.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="domain">
+      <h1 data-aos="fade-right">Our domain</h1>
+
+      <div class="domain-cards">
+        <div class="domain-card">
+          <h3>Literature Survey</h3>
+          <p>
+            Our research harnesses cutting-edge machine learning and deep learning techniques to revolutionize the early detection and diagnosis of neurodevelopmental and neurodegenerative disorders, including Alzheimer’s, Parkinson’s, Autism Spectrum Disorder (ASD), and Depression. By integrating advanced models such as CNNs, RNNs, LSTMs, and NLP-based systems, we analyze a wide range of data—from neuroimaging and facial expressions to speech, handwriting, and textual inputs—to identify critical biomarkers and behavioral patterns. Multimodal fusion approaches that combine visual, auditory, and physiological data have demonstrated superior accuracy in classification and prediction across all four conditions. We emphasize not only high-performing models but also the application of explainable AI (XAI) to enhance clinical interpretability, transparency, and trust in AI-assisted healthcare. Despite challenges like data heterogeneity, privacy concerns, and model bias, our research contributes to the development of accessible, personalized, and scalable diagnostic tools, paving the way for earlier interventions and improved patient outcomes.
+          </p>
+        </div>
+
+        <div class="domain-card">
+          <h3>Research Gap</h3>
+          <p>
+            Despite significant advancements in AI-driven diagnostics, existing approaches often focus on individual disorders using unimodal data, limiting their effectiveness and generalizability in real-world clinical settings. Many current models lack transparency, making them difficult for healthcare professionals to interpret and trust. Additionally, limited availability of diverse, high-quality datasets and challenges in integrating multimodal data (e.g., combining text, images, speech, and physiological signals) hinder the development of robust, scalable solutions. Our research addresses these gaps by exploring interpretable, multimodal machine learning models tailored for early and accurate detection of Alzheimer’s, Parkinson’s, Autism Spectrum Disorder, and Depression.
+          </p>
+        </div>
+
+        <div class="domain-card">
+          <h3>Research Problem</h3>
+          <p>
+            <ul>
+                <li>How to leverage machine and deep learning techniques to  enhance mental care?</li>
+                <li>Up to what extent machine and deep learning can be used to diagnose and analyze mental disorders like Autism, Alzheimer's, Parkinson's, and Depression?</li>
+                <li>How trustworthy and useful are the built models? </li>
+                <li>How to monitor patients effectively?</li>
+            </ul>            
+          </p>
+        </div>
+
+        <div class="domain-card">
+          <h3>Research Objectives</h3>
+          <p>
+            <ul>
+                <li>Diagnosing and Analyzing Alzheimer’s Risk through Machine Learning Techniques</li>
+                <li>Early Detection of Parkinson's: Harnessing Machine Learning for Predictive Risk Modeling</li>
+                <li>Early Autism Spectrum Disorder Detection Using Facial Images and Text Analysis</li>
+                <li>Diagnosing and Analyzing Depression through Text and Facial Images</li>
+            </ul>            
+          </p>
+        </div>
+
+        <div class="domain-card">
+          <h3>Methodology</h3>
+          <p>
+            <ul>
+                <li>Patients are registered with wearable integration, and their MRI scans and physiological data are processed by CNN+SVM and Random Forest models, with multimodal fusion generating a risk prediction displayed via an explainable AI dashboard.</li>
+                <li>Patients’ gait, motor activity, and speech data are collected via wearables and smartphones, analyzed by CNN-LSTM and SVM/deep learning models, fused for Parkinson’s risk scoring, and tracked on an interactive dashboard.</li>
+                <li>Clinicians collect videos and behavioral logs of children performing tasks, analyze facial and gaze features with CNN and behavioral data with decision trees, fuse results to assess ASD risk, and provide explainable reports for doctors.</li>
+                <li>After an initial survey, patients submit text and facial images analyzed by BI-LSTM and VGG19 models, whose outputs are combined through weighted average late fusion method to predict depression severity and visualize results for clinicians.</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="domain-card">
+          <h3>Technologies</h3>
+          <div class="domain-technologies">
+            <img src="./images/tools/python.png" alt="" />
+            <img src="./images/tools/tensorflow.png" alt="" />
+            <img src="./images/tools/keras.png" alt="" />
+            <img src="./images/tools/mongodb.png" alt="" />
+            <img src="./images/tools/superbase.png" alt="" />
+            <img src="./images/tools/jupyter.png" alt="" />
+            <img src="./images/tools/nextjs.jpeg" alt="" />
+            <img src="./images/tools/colab.png" alt="" />
+            <img src="./images/tools/vscode.png" alt="" />
+            <img src="./images/tools/postman.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="milestones">
+        <h1 data-aos="fade-right">Milestones</h1>
+        <ul>
+            <li style="--accent-color: #2563eb">
+                <div class="date">6th July 2024</div>
+                <div class="title">Proposal Presentation</div>
+            </li>
+            <li style="--accent-color: #3b82f6">
+                <div class="date">23rd August 2024</div>
+                <div class="title">Proposal Report</div>
+            </li>
+            <li style="--accent-color: #60a5fa">
+                <div class="date">6th December 2024</div>
+                <div class="title">Progress Presentation - 1</div>
+            </li>
+            <li style="--accent-color: #10b981">
+                <div class="date">19th March 2025</div>
+                <div class="title">Progress Presentation - 2</div>
+            <li style="--accent-color: #f59e0b">
+                <div class="date">20th March 2025</div>
+                <div class="title">Research Paper</div>
+            </li>
+            <li style="--accent-color: #ef4444">
+                <div class="date">11th April 2025</div>
+                <div class="title">Final Report</div>
+            </li>
+            <li style="--accent-color: #8b5cf6">
+                <div class="date">11th April 2025</div>
+                <div class="title">Group Final Report</div>
+            </li>
+            <li style="--accent-color: #ec4899">
+                <div class="date">27th May 2025</div>
+                <div class="title">Final Presentation</div>
+            </li>
+            <li style="--accent-color: #14b8a6">
+                <div class="date">27th May 2025</div>
+                <div class="title">Viva</div>
+            </li>
+            <li style="--accent-color: #f97316">
+                <div class="date">2nd June 2025</div>
+                <div class="title">Website</div>
+            </li>
+            <li style="--accent-color: #06b6d4">
+                <div class="date">9th June 2025</div>
+                <div class="title">Logbook</div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="documents">
+      <div class="documents">
+        <h1 data-aos="fade-right">Documents</h1>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <span>Project Charter</span>
+            </div>
+            <div class="accordion-content">
+              <div class="document-cards">
+                <div class="document-card">
+                  <h3>Group 322</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/TAF_24-25J-322.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <span>Proposal Document</span>
+            </div>
+            <div class="accordion-content">
+              <div class="document-cards">
+                <div class="document-card">
+                  <h3>IT21180934</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Proposal/IT21180934.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+                <div class="document-card">
+                  <h3>IT21164026</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Proposal/IT21164026.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+
+                <div class="document-card">
+                  <h3>IT21182846</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Proposal/IT21182846.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+                
+                <div class="document-card">
+                  <h3>IT21178368</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Proposal/IT21178368.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>                    
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <span>Final Reports</span>
+            </div>
+            <div class="accordion-content">
+              <div class="document-cards">
+                <div class="document-card">
+                  <h3>Group 322</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Final/Group_Final_Report.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+                <div class="document-card">
+                  <h3>IT21180934</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Final/IT21180934.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+                <div class="document-card">
+                  <h3>IT21164026</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Final/IT21164026.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+
+                <div class="document-card">
+                  <h3>IT21182846</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Final/IT21182846.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+
+                <div class="document-card">
+                  <h3>IT21178368</h3>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="./documents/Final/IT21178368.pdf"
+                      ><i class="fa-solid fa-cloud-arrow-down"></i>Download</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slides">
+      <h1 data-aos="fade-right">Slides</h1>
+      <div class="slides-cards">
+        <div class="slide-card">
+          <h3>Proposal <span>Presentation</span></h3>
+
+          <i class="fa-regular fa-file-powerpoint" id="powerpoint"></i>
+          <div>
+            <a
+              target="_blank"
+              href="./documents/proposal_presentation.pdf"
+              ><i class="fa-solid fa-cloud-arrow-down" id="download"></i
+              >Download</a
+            >
+          </div>
+        </div>
+        <div class="slide-card">
+          <h3>Progress <span>Presentation -1</span></h3>
+          <i class="fa-regular fa-file-powerpoint" id="powerpoint"></i>
+          <div>
+            <a target="_blank" href="./documents/PP1.pdf"
+              ><i class="fa-solid fa-cloud-arrow-down" id="download"></i
+              >Download</a
+            >
+          </div>
+        </div>
+        <div class="slide-card">
+          <h3>Progress <span>Presentation -2</span></h3>
+          <i class="fa-regular fa-file-powerpoint" id="powerpoint"></i>
+          <div>
+            <a target="_blank" href="./documents/PP2.pdf"
+              ><i class="fa-solid fa-cloud-arrow-down" id="download"></i
+              >Download</a
+            >
+          </div>
+        </div>
+        <div class="slide-card">
+          <h3>Final <span>Presentation</span></h3>
+          <i class="fa-regular fa-file-powerpoint" id="powerpoint"></i>
+          <div>
+            <a
+              target="_blank"
+              href="./documents/Final_Presenation.pdf"
+              ><i class="fa-solid fa-cloud-arrow-down" id="download"></i
+              >Download</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h1 data-aos="fade-right">Meet the team</h1>
+      <div class="team-container">
+        <div class="team-supervisors">
+          <div class="team-content">
+            <img class="team-photo" src="./images/supervisor.jpg" alt="" />
+            <h1 class="team-name">Ms. Wishalya Tissera</h1>
+            <h4 class="team-position">Supervisor</h4>
+            <div class="team-sociallinks">
+              <a
+                target="_blank"
+                href="linkedin.com/in/wishalya-tissera"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a target="_blank" href="mailto:samadhi.r@sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-content">
+            <img class="team-photo" src="./images/co-supervisor.jpg" alt="" />
+            <h1 class="team-name">Dr. Kapila Dissanayaka</h1>
+            <h4 class="team-position">Co-supervisor</h4>
+            <div class="team-sociallinks">
+              <a
+                target="_blank"
+                href="linkedin.com/in/kapila-d-dissanayaka"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a target="_blank" href="mailto:junius.a@sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-members">
+          <div class="team-content">
+            <img class="team-photo" src="./images/malith.jpg" alt="" />
+            <h1 class="team-name">Malith Dilshan</h1>
+            <h3 class="team-itno">IT21180934</h3>
+            <h4 class="team-position">Team Leader</h4>
+            <div class="team-sociallinks">
+              <a
+                target="_blank"
+                href="linkedin.com/in/malithdilshan27"
+                ><i class="fa-brands fa-linkedin"></i></a
+              ><a target="_blank" href="mailto:it21176456@my.sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>          
+          <div class="team-content">
+            <img class="team-photo" src="./images/ashen.jpg" alt="" />
+            <h1 class="team-name">Ashen Wijayasooriya</h1>
+            <h3 class="team-itno">IT21164026</h3>
+            <h4 class="team-position">Team Member</h4>
+            <div class="team-sociallinks">
+              <a
+                target="_blank"
+                href="linkedin.com/in/ashen-wijayasooriya-5584b0215"
+                ><i class="fa-brands fa-linkedin"></i></a
+              ><a target="_blank" href="mailto:it21261732@my.sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-content">
+            <img class="team-photo" src="./images/nayani.jpeg" alt="" />
+            <h1 class="team-name">Nayani Chamaleen</h1>
+            <h3 class="team-itno">IT21182846 </h3>
+            <h4 class="team-position">Team Member</h4>
+            <div class="team-sociallinks">
+              <a target="_blank" href="linkedin.com/in/nayani-chamaleen"
+                ><i class="fa-brands fa-linkedin"></i></a
+              ><a target="_blank" href="mailto:it21262104@my.sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-content">
+            <img class="team-photo" src="./images/kavindi.jpeg" alt="" />
+            <h1 class="team-name">Kavindi Perera</h1>
+            <h3 class="team-itno">IT21178368</h3>
+            <h4 class="team-position">Team Member</h4>
+            <div class="team-sociallinks">
+              <a target="_blank" href="linkedin.com/in/ksathperera"
+                ><i class="fa-brands fa-linkedin"></i></a
+              ><a target="_blank" href="mailto:it21262104@my.sliit.lk"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+        <h1 data-aos="fade-right">Get in Touch</h1>
+
+        <div class="contact-us">
+            <div class="contact-form">
+                <form action="" id="contact-form">
+                    <input type="text" placeholder="Name" required />
+                    <input type="email" placeholder="Email" required />
+                    <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="19"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i><span>Send</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                
+                <div class="team-contacts">
+                    
+                    <div class="contact-person">
+                        <div class="person-name">Malith Dilshan</div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:maleeshagimmana65@gmail.com">malithdilshan27@gmail.com</a>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+94764146749">0770348784</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-name">Ashen Wijayasooriya</div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:sandunikavishaperera@gmail.com">ashenwijayasooriya@gmail.com</a>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+94707088263">0704476158</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-name">Nayani Chamaleen</div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:wishmisasika@gmail.com">nayani99chamaleen@gmail.com</a>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+94714310688">0716377078</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-name">Kavindi Perera</div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:sandunikavishaperera@gmail.com">ksathperera@gmail.com</a>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+94707088263">0773199670</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
